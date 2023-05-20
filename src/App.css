@@ -1,0 +1,29 @@
+body{
+  background-color: #999;
+}
+.card{
+  width:600px;
+  height:300px;
+  border:2px solid black;
+  margin-top:180px;
+  background-color: wheat;
+}
+.card-title{
+  margin-top:50px;
+  color:red;
+}
+form .input{
+  width:250px;
+  height:25px;
+}
+form .input::placeholder{
+  text-align: center;
+}
+form .submit{
+  background-color:green;
+  padding:5px 15px;
+  cursor: pointer;
+}
+.result{
+  color:blue;
+}
